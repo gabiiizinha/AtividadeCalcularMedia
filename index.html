@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Análise de notas</h1>
+
+    <div class="notas">
+     <label>Conte-me suas notas aqui:</label>
+     <input type="number" class="notas" id="primeiranota" min="0" max="100" placeholder="Informe sua primeira nota:  ">
+     <input type="number" class="notas" id="segundanota" min="0" max="100" placeholder="Informe sua segunda nota:  ">
+     <input type="number" class="notas" id="terceiranota" min="0" max="100" placeholder="Informe sua terceira nota:  ">
+     <button onclick="Medias()">Calcular</button>
+     <p id="resultado"></p>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
